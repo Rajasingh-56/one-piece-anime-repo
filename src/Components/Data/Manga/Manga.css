@@ -1,0 +1,25 @@
+.manga-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+}
+
+.manga-sec h1{
+    margin: 2rem 0;
+    border-bottom: thick double #fff;}
+
+.manga-sec img{
+    width: 28rem;
+    margin-bottom: 1.6rem;
+    border-radius:10%;
+}
+
+.manga-sec p{
+    margin: 0 1.5rem;
+    font-size: 1.3rem;
+}
+.manga-sec .manga-last{
+    margin-bottom: 3rem;
+}

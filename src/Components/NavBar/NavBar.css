@@ -1,0 +1,80 @@
+.navbar-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(6, 161, 223); */
+  width: 480px;
+  padding: 1rem;
+  position: relative;
+  background-color: #000;
+}
+
+.navbar-sec .one-pic {
+  width: 10rem;
+  height: auto;
+}
+.nav-links {
+  opacity: 0;
+  visibility: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 4rem;
+  right: 0rem;
+  background-color: rgb(6, 161, 223);
+  /* border: 1px solid #e9e6e6; */
+  border-radius: 5px;
+  padding: 15px;
+  transition: opacity 0.3s ease, visibility 0s 0.3s, transform 0.3s ease;
+  transform: translateY(-20px); /* Slide up initially */
+}
+
+.nav-links.open {
+  display: flex;
+  opacity: 1; /* Visible */
+  visibility: visible; /* Allow interaction */
+  transform: translateY(0); /* Slide down */
+  transition: opacity 0.3s ease, visibility 0s 0s, transform 0.3s ease;
+}
+
+.navbar-sec ul li a:hover {
+  color: #f8eeee;
+}
+
+.navbar-sec li {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 33px;
+  list-style: none;
+  font-size: 1.1rem;
+}
+.navbar-sec ul li a {
+  display: flex;
+  /* grid-column: auto; */
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  gap: 0.7rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu {
+  position: absolute;
+  top: 1.85rem;
+  right: 2rem;
+  cursor: pointer;
+}
+.menu-icon2 {
+  width: 2rem;
+  cursor: pointer;
+}
+
+.menu-icon1 {
+  width: 1.3rem;
+  cursor: pointer;
+  background-color: #fff;
+border: 2px solid #fff;
+}

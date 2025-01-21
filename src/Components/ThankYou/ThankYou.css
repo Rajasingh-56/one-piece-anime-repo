@@ -1,0 +1,31 @@
+.thankyou-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 480px;
+  /* margin: 4rem 0; */
+}
+
+.thankyou-info span {
+  margin-top: 1.5rem;
+  font-size: 2.6rem;
+}
+
+.thankyou-info h1 {
+  margin-top: 1rem;
+}
+
+.thankyou-info p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: center;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+
+.thankyou-info img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.2rem;
+}

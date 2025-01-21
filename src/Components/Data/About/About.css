@@ -1,0 +1,24 @@
+.abt-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+}
+
+.abt-sec h1{
+    margin-top: 2rem;
+    border-bottom: thick double #fff;}
+
+.abt-sec img{
+    width: 97%;
+}
+
+.abt-sec p{
+    margin: 0 1.3rem;
+    font-size: 1.3rem;
+}
+
+.abt-sec .manga{
+    margin-bottom: 4rem;
+}

@@ -1,0 +1,50 @@
+.navbar-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 480px;
+  text-align: center;
+  background-color: #000;
+}
+
+.footer-image {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+.logo-one {
+  width: 10rem;
+  height: auto;
+  margin-bottom: 1.4rem;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.6rem;
+  padding: 1rem 0;
+}
+
+.contact-info ul li {
+  list-style: none;
+  font-size: 0.8rem;
+}
+
+.contact-info ul p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #fff;
+  color: #f59505;
+}
+
+.contact-info ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact-info ul li a:hover {
+  color: #15bae4;
+}

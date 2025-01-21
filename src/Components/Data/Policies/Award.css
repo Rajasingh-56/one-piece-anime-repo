@@ -1,0 +1,27 @@
+.award-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 480px;
+}
+
+.award-sec img {
+  width: 90%;
+  border-radius: 10%;
+  margin: 1.5rem 0;
+}
+
+.award-sec h1 {
+  margin: 2rem 0;
+  border-bottom: thick double #fff;
+}
+
+.award-sec p {
+  margin: 0 1.4rem;
+  font-size: 1.3rem;
+}
+
+.award-sec .award-last {
+  margin-bottom: 3rem;
+}
